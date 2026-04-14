@@ -9,7 +9,7 @@ public class Student {
     private int rollNo;
     @Autowired  // no need to manually set Address provides dependency injection and loose coupling
 
-    @Qualifier("createAddrObj2")  // if there are multiple beans then which bean is being used
+    @Qualifier("createAddrObj2")  // ifthere are multiple beans then which bean is being used
     private Address address;
 
     public String getName() {
